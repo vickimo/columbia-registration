@@ -1,0 +1,7 @@
+Step 1: Fill in your SSOL username/password and the course that you would like to enroll in.
+
+Step 2: Change the cron-file.txt to the desired time interval between enroll attempts
+
+Step 3: cd into the directory, use the command 'crontab cron-file.txt' to start the cronjob
+
+Step 4: 'crontab -r' removes the cronjob
