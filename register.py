@@ -1,7 +1,7 @@
 #!/usr/bin/python
 from splinter.browser import Browser
 from time import sleep
-import threading
+import subprocess
 
 url = 'https://ssol.columbia.edu/'
 username = 'SSOL username'
@@ -27,6 +27,7 @@ def main():
 	else:
 		browser.find_by_name('tran[1]_act')[0].click()
 		print 'happy times! enrolled in %s' % callnumber
+		subprocess.call('crontab -r', shell=True)
 	browser.quit()
 
 	print '__END__'
