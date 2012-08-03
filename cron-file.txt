@@ -1,1 +1,1 @@
-*/1 * * * * /Users/Boss/Workspace/learndjango/learnscrape/register4444.py
+*/5 * * * * /Users/Boss/Workspace/learndjango/learnscrape/register4444.py
